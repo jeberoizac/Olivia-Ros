@@ -1,0 +1,26 @@
+body{
+  font-family: "Raleway", sans-serif;
+}
+header{
+  background-image: url(../img/bg-hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; /*para llenar cn la pantalla*/
+  background-position: left;
+  padding-bottom: 10rem;
+  width: auto;
+  height: 630px;
+  padding-top: 120px;
+  padding-right: 178px;
+  padding-left: 386px;
+}
+.section-img img{
+  height: 232px;
+}
+@media screen and (min-width: 1200px) {
+  header .container-fluid{
+    background-color: green;
+    float: right;
+  }
+
+  
+}
